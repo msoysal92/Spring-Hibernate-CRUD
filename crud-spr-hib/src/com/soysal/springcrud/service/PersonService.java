@@ -1,5 +1,9 @@
 package com.soysal.springcrud.service;
 
-public interface PersonService {
+import java.util.List;
 
+import com.soysal.springcrud.model.Person;
+
+public interface PersonService {
+	public List<Person> getAllPersons();
 }
