@@ -8,6 +8,5 @@ public interface PersonService {
 
 	public List<Person> getAllPersons();
 	
-	public Person getPerson();
 	public List<Person> deletePerson(List<Person> personList, Person p);
 }

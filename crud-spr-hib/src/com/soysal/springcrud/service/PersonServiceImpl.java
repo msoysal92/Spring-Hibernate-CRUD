@@ -18,9 +18,6 @@ public class PersonServiceImpl implements PersonService{
 		return personList;
 	}
 
-	@Override
-	public Person getPerson() {
-		return new Person("Sule", "Tosun");	
 	public List<Person> deletePerson(List<Person> personList, Person p) {
 		personList.remove(p); 
 		return personList;
