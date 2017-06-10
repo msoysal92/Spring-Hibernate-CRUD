@@ -18,4 +18,9 @@ public class PersonServiceImpl implements PersonService{
 		return personList;
 	}
 
+	@Override
+	public Person getPerson() {
+		return new Person("Sule", "Tosun");	
+	}
+
 }
