@@ -18,4 +18,10 @@ public class PersonServiceImpl implements PersonService{
 		return personList;
 	}
 
+	@Override
+	public List<Person> deletePerson(List<Person> personList, Person p) {
+		personList.remove(p);
+		return personList;
+	}
+
 }
